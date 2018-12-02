@@ -7,7 +7,6 @@ public class AutoMove : MonoBehaviour
 
     public Transform Player;
     int MoveSpeed = 35;
-    int MinDist = 0;
     float endTime = .1f;
 
 
