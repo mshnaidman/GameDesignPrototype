@@ -61,28 +61,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SBPVP v.1.0\Scripts\CarControlCS.cs" />
-    <Compile Include="Assets\SBPVP v.1.0\Scripts\DeadZone.cs" />
-    <Compile Include="Assets\SBPVP v.1.0\Scripts\Rotate.cs" />
-    <Compile Include="Assets\SBPVP v.1.0\Scripts\VehicleCameraControl.cs" />
+    <Compile Include="Assets\Scenes\Rotate.cs" />
     <Compile Include="Assets\Scripts\AutoMove.cs" />
-    <Compile Include="Assets\Scripts\CameraSplit.cs" />
+    <Compile Include="Assets\Scripts\CarControlCS.cs" />
+    <Compile Include="Assets\Scripts\DeadZone.cs" />
     <Compile Include="Assets\Scripts\FloorShring.cs" />
-    <Compile Include="Assets\Scripts\MainCamera.cs" />
     <Compile Include="Assets\Scripts\PlayerContoll.cs" />
-    <None Include="Assets\SBPVP v.1.0\FreeCarSet(README).txt" />
-    <None Include="Assets\SBPVP v.1.0\Shaders\iPhone Reflection.shader" />
+    <Compile Include="Assets\Scripts\VehicleCameraControl.cs" />
+    <None Include="Assets\Shaders\iPhone Reflection.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/Nate/Desktop/untitled folder/GameDesignPrototype/bumper royal prototype/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/GameDesignPrototype/bumper royal prototype/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/Nate/Desktop/untitled folder/GameDesignPrototype/bumper royal prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/GameDesignPrototype/bumper royal prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/Nate/Desktop/untitled folder/GameDesignPrototype/bumper royal prototype/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/GameDesignPrototype/bumper royal prototype/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/Nate/Desktop/untitled folder/GameDesignPrototype/bumper royal prototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/GameDesignPrototype/bumper royal prototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
