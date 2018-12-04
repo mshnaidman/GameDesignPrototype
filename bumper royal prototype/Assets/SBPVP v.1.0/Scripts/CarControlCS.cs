@@ -276,10 +276,21 @@ public class CarControlCS : MonoBehaviour {
 		//no matter how much you increase the max torque.
 		if (DriveTrain == DriveType.RWD)
 		{
-			wheels.wheelRR.motorTorque = maxTorque * Input.GetAxis("Vertical") * gasMultiplier;
-			wheels.wheelRL.motorTorque = maxTorque * Input.GetAxis("Vertical") * gasMultiplier;
+            if (gameObject.name == "Player1")
+            {
 
-			if (localCurrentSpeed.z < -0.1f && wheels.wheelRL.rpm < 10) {//in local space, if the car is travelling in the direction of the -z axis, (or in reverse), reversing will be true
+                wheels.wheelRR.motorTorque = maxTorque * Input.GetAxis("Vertical") * gasMultiplier;
+                wheels.wheelRL.motorTorque = maxTorque * Input.GetAxis("Vertical") * gasMultiplier;
+            }
+            if (gameObject.name == "Player2")
+            {
+
+                wheels.wheelRR.motorTorque = maxTorque * Input.GetAxis("Vertical2") * gasMultiplier;
+                wheels.wheelRL.motorTorque = maxTorque * Input.GetAxis("Vertical2") * gasMultiplier;
+            }
+
+
+            if (localCurrentSpeed.z < -0.1f && wheels.wheelRL.rpm < 10) {//in local space, if the car is travelling in the direction of the -z axis, (or in reverse), reversing will be true
 				reversing = true;
 			} else {
 				reversing = false;
@@ -311,10 +322,17 @@ public class CarControlCS : MonoBehaviour {
 			}
 		}
 
-		
-		wheels.wheelFL.steerAngle = maxSteer * Input.GetAxis("Horizontal");
-		wheels.wheelFR.steerAngle = maxSteer * Input.GetAxis("Horizontal");
-		if (Input.GetButton("Jump"))//pressing space triggers the car's handbrake
+        if (gameObject.name == "Player1")
+        {
+            wheels.wheelFL.steerAngle = maxSteer * Input.GetAxis("Horizontal");
+            wheels.wheelFR.steerAngle = maxSteer * Input.GetAxis("Horizontal");
+        }
+        if (gameObject.name == "Player2")
+        {
+            wheels.wheelFL.steerAngle = maxSteer * Input.GetAxis("Horizontal2");
+            wheels.wheelFR.steerAngle = maxSteer * Input.GetAxis("Horizontal2");
+        }
+        if (Input.GetButton("Jump"))//pressing space triggers the car's handbrake
 		{
 			wheels.wheelFL.brakeTorque = handBrakeTorque;
 			wheels.wheelFR.brakeTorque = handBrakeTorque;

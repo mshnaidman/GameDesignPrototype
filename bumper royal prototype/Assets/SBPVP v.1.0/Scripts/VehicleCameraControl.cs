@@ -7,7 +7,7 @@ public class VehicleCameraControl : MonoBehaviour
 	public Transform playerCar;
 	private Rigidbody playerRigid;
 	public float distance = 10.0f;
-	public float height = 5.0f;
+	public float height = 30.0f;
 	private float defaultHeight = 0f;
 	public float heightDamping = 2.0f;
 	public float rotationDamping = 3.0f;
