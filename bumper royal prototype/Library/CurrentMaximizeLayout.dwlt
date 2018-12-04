@@ -19,10 +19,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 652
-  m_MinSize: {x: 683, y: 442}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 679, y: 421}
+  m_MaxSize: {x: 18002, y: 14021}
   vertical: 1
-  controlID: 201
+  controlID: 4742
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 652
-  m_MinSize: {x: 683, y: 442}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 679, y: 421}
+  m_MaxSize: {x: 18002, y: 14021}
   vertical: 0
-  controlID: 202
+  controlID: 4743
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,10 +146,10 @@ MonoBehaviour:
     y: 0
     width: 835
     height: 652
-  m_MinSize: {x: 406, y: 442}
-  m_MaxSize: {x: 8006, y: 8042}
+  m_MinSize: {x: 402, y: 421}
+  m_MaxSize: {x: 8002, y: 8021}
   vertical: 1
-  controlID: 203
+  controlID: 4744
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,10 +170,10 @@ MonoBehaviour:
     y: 0
     width: 835
     height: 348
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 204
+  controlID: 4590
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,8 +402,8 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ee0c0000
-    m_LastClickedID: 3310
+    m_SelectedIDs: dc0c0000
+    m_LastClickedID: 3292
     m_ExpandedIDs: b6fbffffe4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -471,8 +471,8 @@ MonoBehaviour:
     y: 348
     width: 835
     height: 304
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 3264
+  m_LastSelectedObjectID: 3292
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -528,10 +528,10 @@ MonoBehaviour:
     y: 0
     width: 445
     height: 652
-  m_MinSize: {x: 277, y: 342}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 277, y: 321}
+  m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 293
+  controlID: 4701
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -550,8 +550,8 @@ MonoBehaviour:
     y: 0
     width: 445
     height: 251
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -653,11 +653,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SBPVP v.1.0/Scripts
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/SBPVP v.1.0/Scripts
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/Nate/Documents/GitHub/GameDesignPrototype/bumper royal
     prototype
@@ -665,9 +665,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f80b0000
-    m_LastClickedID: 3064
-    m_ExpandedIDs: 0000000042090000000b0000a62e0000a82e0000aa2e0000ac2e0000ae2e000000ca9a3b
+    m_SelectedIDs: f20b0000
+    m_LastClickedID: 3058
+    m_ExpandedIDs: 000000003e090000942e0000962e0000982e00009a2e00009c2e00009e2e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -695,7 +695,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000042090000000b0000a62e0000a82e0000aa2e0000ac2e0000ae2e000000ca9a3b
+    m_ExpandedIDs: 000000003e090000942e0000962e0000982e00009a2e00009c2e00009e2e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -720,24 +720,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ee0c0000
-    m_LastClickedInstanceID: 3310
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: dc0c0000
+    m_LastClickedInstanceID: 3292
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ce6a000000000000060d0000580b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: VehicleCameraControl
-      m_OriginalName: VehicleCameraControl
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 2360
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 18}
     m_CreateAssetUtility:

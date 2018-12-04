@@ -382,11 +382,23 @@ public class CarControlCS : MonoBehaviour {
 
 	void OnGUI()
 	{
-		//show the GUI for the speed and gear we are on.
-		GUI.Box(new Rect(10,10,70,30),"MPH: " + Mathf.Round(GetComponent<Rigidbody>().velocity.magnitude * 2.23693629f));
-		if (!reversing)
-			GUI.Box(new Rect(10,70,70,30),"Gear: " + (gear+1));
-		if (reversing)//if the car is going backwards display the gear as R
-			GUI.Box(new Rect(10,70,70,30),"Gear: R");
-	}
+        if (gameObject.tag == "Player2")
+        {
+            //show the GUI for the speed and gear we are on.
+            GUI.Box(new Rect(10, 10, 70, 30), "MPH: " + Mathf.Round(GetComponent<Rigidbody>().velocity.magnitude * 2.23693629f));
+            if (!reversing)
+                GUI.Box(new Rect(10, 60, 70, 30), "Gear: " + (gear + 1));
+            if (reversing)//if the car is going backwards display the gear as R
+                GUI.Box(new Rect(10, 70, 70, 30), "Gear: R");
+        }
+        if (gameObject.tag == "Player1")
+        {
+            //show the GUI for the speed and gear we are on.
+            GUI.Box(new Rect(10, 320, 70, 30), "MPH: " + Mathf.Round(GetComponent<Rigidbody>().velocity.magnitude * 2.23693629f));
+            if (!reversing)
+                GUI.Box(new Rect(10, 370, 70, 30), "Gear: " + (gear + 1));
+            if (reversing)//if the car is going backwards display the gear as R
+                GUI.Box(new Rect(10, 370, 70, 30), "Gear: R");
+        }
+    }
 }
